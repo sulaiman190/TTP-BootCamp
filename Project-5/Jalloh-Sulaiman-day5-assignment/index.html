@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>Music Player</title>
+    <link rel="stylesheet" href="css/style.css" media="screen">
+</head>
+<body>
+<div id="container">
+	<div id="audio-image">
+		<img class="cover" />
+	</div>
+	<div id="audio-player">
+		<div id="audio-info">
+			<span class="artist"></span> - <span class="title"></span>
+		</div>
+		 <input id="volume" type="range" min="0" max="10" value="5" />
+		 <br>
+		 <div id="buttons">
+		 <span>
+			<button id="prev"></button>
+			<button id="play"></button>
+			<button id="pause"></button>
+			<button id="stop"></button>
+			<button id="next"></button>
+			</span>
+		 </div>
+		 <div class="clearfix"></div>
+		 <div id="tracker">
+			<div id="progressBar">
+				<span id="progress"></span>
+			</div>
+			<span id="duration"></span>
+		 </div>
+		 <div class="clearfix"></div>
+		 <ul id="playlist" class="hidden">
+			<li song="kindrick-lamar.mp3" cover="kendrick-lamar.jpg" artist="kendrick-lamar">kindrick-lamar.mp3</li>
+			<li song="jay-z-05 - 444.mp3" cover="cover.jpg"artist="ay-z">jay-z-05 - 444.mp3</li>
+			<li song="jay-z-06 - Family Feud.mp3" cover="cover.jpg" artist="jay-z">jay-z-06 - Family Feud.mp3</li>
+			<li song="02 - Groundhog Day (J. Cole Response).mp3" cover="cole-world-sideline-story.jpg" artist=" j.cole">02 - Groundhog Day (J. Cole Response).mp3</li>
+
+			<li song="04 - All the Way Up (feat. French Montana _ Infared).m4a" cover="excuse-my-french-cover.jpg" artist="french-montana">04 - All the Way Up (feat. French Montana _ Infared).m4a</li>
+		</ul>
+	</div>
+
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
