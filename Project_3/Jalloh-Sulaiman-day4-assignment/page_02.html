@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Scope/DOM/Event Mini Challenges</title>
+	<script type="text/javascript" src="js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="page_01.html">Page_01</a></li>
+				<li><a href="page_02.html" id="current">Page_02</a></li>
+				<li><a href="page_3.html">Page_03</a></li>
+				<li><a href="page_4.html">Page_04</a></li>
+			</ul>
+		</nav>
+
+		<p>
+			<div id="hover-block" onmouseover="changeText('Hey, I told you not to hover over me!')"
+				onmouseout="changeText('Don\'t hover over me.')">
+			<h2 id="display-text">Don't hover over me!</h2>
+			</div>
+		</p>
+	</header>
+</body>
+</html>
