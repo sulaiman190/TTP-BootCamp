@@ -1,0 +1,104 @@
+/* body styling start here */
+body{
+	background-image: url("image.jpg");
+	background-color: red;
+	border: solid;
+	border-width: 18px;
+	border-color: yellow;
+	margin:30px;
+	background-size: cover;
+
+}
+h1, h2, h3{
+	text-align: center;
+}
+h2, h3{
+	color: blue;
+}
+p{
+	font-size:20px;
+	font-family: "Times New Roman", Times, serif;
+}
+p, a{
+	margin: 20px;
+
+}
+img{
+	float:left;
+	display: inline;
+	margin-left: 10px;
+	padding: 10px;
+}
+/* taging start here */
+#project{
+     height:25vh;
+     padding: 2vh 2% 2% 2%;
+}
+table, th, td {
+    border: 6px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+caption{
+	text-align: center;
+	color: blue;
+	font-size:30px;
+}
+/* taging end here */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 25px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ffa500;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.center{
+    text-align: center;
+}
+.gallery {
+    width: 728px;
+    margin: auto;
+}
+.gallery ul {
+    list-style: none;
+}
+.gallery li {
+    float: left;
+    margin: 10px;   
+}
+.list{
+	margin: 10px;
+	 list-style: none;
+	 text-align: center;
+}
+
+@media screen and (min-width:600px){
+    main{
+        width:50%;
+        float: left;
+    }
+}
